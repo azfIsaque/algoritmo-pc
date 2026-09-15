@@ -48,7 +48,7 @@ int main(void)
     scanf("%f",& orcamento);
 
     // Calculos
-    qte_times = ceil(qte_participantes / qte_jogadores_por_time);// - quantidade de times;
+    qte_times = ceil((float)qte_participantes / qte_jogadores_por_time);// - quantidade de times;
     consumo_energia = (qte_computadores * potencia * duracao) / 1000;// - consumo de energia;
     custo_energia = consumo_energia * preco_kwh;// - custo da energia;
     custo_alimentacao = qte_participantes * preco_kit;// - custo da alimentacao;

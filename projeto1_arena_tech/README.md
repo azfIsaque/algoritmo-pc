@@ -139,24 +139,6 @@ Motivo: Consumo elevado de energia
 =========================================
 ```
 ---
-## 💡 Análise Técnica do Código C
-Como boa prática de engenharia de software, seguem observações e recomendações técnicas sobre o código desenvolvido:
-1. **Divisão Inteira com `ceil()`**:
-   - No código original: `ceil(qte_participantes / qte_jogadores_por_time)`.
-   - Em C, a divisão de dois inteiros (`int / int`) resulta em um número inteiro truncado *antes* de passar para a função `ceil()`. Por exemplo, se fossem 31 participantes e 5 por time, `31 / 5` resultaria em `6`, e `ceil(6)` resultaria em `6.0` (quando o correto seriam 7 teams).
-   - **Recomendação de ajuste**: Realizar a coerção de tipo (*cast*) para `float` antes da divisão:
-     ```c
-     qte_times = ceil((float)qte_participantes / qte_jogadores_por_time);
-     ```
-
-2. **Localização de Caracteres (`setlocale`)**:
-   - O uso de `setlocale(LC_CTYPE, "")` é excelente para garantir a exibição correta de acentos e caracteres da língua portuguesa no terminal.
-
-3. **Validação de Entradas**:
-   - Em futuras versões, recomenda-se adicionar validações para evitar divisões por zero (ex.: `qte_jogadores_por_time == 0` ou `qte_participantes == 0`) e valores negativos de entrada.
-
----
-
 ## 👤 Autor
 
 * **Desenvolvedor**: Isaque Moreira

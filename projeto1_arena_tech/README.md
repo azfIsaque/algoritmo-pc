@@ -6,6 +6,7 @@ Um programa em C para calcular custos, analisar recursos e decidir sobre a reali
 [![Linguagem C](https://img.shields.io/badge/Linguagem-C-00599C?style=for-the-badge&logo=c&logoColor=white)](https://en.cppreference.com/w/c)
 [![Status](https://img.shields.io/badge/Status-Concluído-brightgreen?style=for-the-badge)](#)
 [![Tipo](https://img.shields.io/badge/Projeto-Acadêmico-blue?style=for-the-badge)](#)
+
 O **Arena Tech** é um programa desenvolvido em linguagem **C** para automatizar o planejamento financeiro, análise de infraestrutura e tomada de decisão estratégica para a realização de eventos de eSports e tecnologia. 
 O sistema avalia a capacidade computacional, o consumo de energia elétrica, o custo total do evento e determina a decisão final quanto à viabilidade do projeto (Aprovado, Aprovado com Ressalvas ou Não Recomendado).
 ---

@@ -3,6 +3,7 @@
 
 ARENA TECH: PLANEJAMENTO E VIABILIDADE DA MARATONA GAMER
 Um programa em C para calcular custos, analisar recursos e decidir sobre a realização de um evento
+
 [![Linguagem C](https://img.shields.io/badge/Linguagem-C-00599C?style=for-the-badge&logo=c&logoColor=white)](https://en.cppreference.com/w/c)
 [![Status](https://img.shields.io/badge/Status-Concluído-brightgreen?style=for-the-badge)](#)
 [![Tipo](https://img.shields.io/badge/Projeto-Acadêmico-blue?style=for-the-badge)](#)
